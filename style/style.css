@@ -20,7 +20,7 @@ body{
 }
 .cabecalho-menu{
     display: flex;
-    gap: 80px;
+    gap: 4rem;
 }
 .cabecalho-menu-link{
     font-family: 'Montserrat', sans-serif;
@@ -42,11 +42,13 @@ body{
     width: 50%;
 }
 .principal-titulo{
-    font-size: 2.25rem;
+    font-size: 2rem;
 }
 .principal-texto{
     font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 0px 20px 20px 0px;
 }
 .principal-butao-subtitulo{
     font-family: "Krona One", sans-serif;
@@ -58,19 +60,19 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 2rem;
 }
 .principal-butao-butao{
     display: flex;
     justify-content: center;
-    gap: 10px;
-    width: 378px;
+    gap: 3rem;
+    width: 25rem;
     text-align: center;
-    border-radius: 2px;
+    border-radius: 0.1rem;
     border: 2px solid var(--cor-terciaria);
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 2%;
+    padding: 0.5rem;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: 'Montserrat', sans-serif;
@@ -83,9 +85,10 @@ body{
     color: var(--cor-terciaria);
 }
 
-.fotografia-dev{
-    width: 50%;
-    gap: 20;
+.fotografia-dev img{
+    border-radius: 50px;
+    gap: 2rem;
+    box-shadow: 0px 10px 10px var(--cor-terciaria);
 }
 .rodape{
     font-family: 'Montserrat', sans-serif;
@@ -93,6 +96,7 @@ body{
     text-align: center;
     color: var(--cor-terciaria);
     font-weight: 400;
+    padding-bottom: 2rem;
 }
 @media (max-width: 700px){
     .cabecalho{
